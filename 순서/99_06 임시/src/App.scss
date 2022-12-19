@@ -1,0 +1,16 @@
+a {
+    text-decoration: none;
+}
+.navTop {
+    .navLogo {
+        margin-left: 20px;
+    }
+    .nav-item {
+        color: #fff;
+        margin-left: 20px;
+        transition: 300ms ease-in;
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}
