@@ -25,7 +25,7 @@ const MovieExplain = ({ item, videoId }) => {
                                         {item.name}
                                     </Badge>
                                 ))}
-                                <h1>{item.title}</h1>
+                                <h3>{item.title}</h3>
                                 <i>{item.release_date}</i>
                                 <p>{item.tagline}</p>
                             </div>
@@ -44,12 +44,10 @@ const MovieExplain = ({ item, videoId }) => {
                                 </span>
                             </div>
 
-                            <div className="overview-box">{item.overview}</div>
+                            <p className="overview-box">{item.overview}</p>
                             <div>
                                 <Trailer item={videoId} />
                             </div>
-
-                            <p></p>
                         </div>
                     </Col>
                 </Row>
